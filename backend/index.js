@@ -19,7 +19,7 @@ app.use(cookieParser())
 const _dirname = path.resolve()
 
 app.use(cors({
-    origin : "http://localhost:5173",
+    origin : "https://chat-app-ql6m.onrender.com",
     credentials : true
 }))
 

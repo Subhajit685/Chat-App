@@ -4,7 +4,7 @@ export const StoreContext = createContext(null)
 
 const ContextProvider = (props) =>{
 
-    const url = "http://localhost:4000"
+    const url = "https://chat-app-ql6m.onrender.com"
 
     const [user, setuser] = useState(null)
     const [message, setmessage] = useState("")

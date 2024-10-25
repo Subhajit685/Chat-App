@@ -14,7 +14,7 @@ const SocketProvider = ({children}) =>{
 
     useEffect(()=>{
         if(user){
-            const socket = io("http://localhost:4000", {
+            const socket = io("https://chat-app-ql6m.onrender.com", {
                 query : {
                     userId : user._id
                 }
