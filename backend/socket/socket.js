@@ -20,7 +20,7 @@ export const getmessages = (resiverID) =>{
 const onlineUsers = {}
 
 io.on('connection', (socket) => {
-
+console.log("connected", socket.id)
     const userId = socket.handshake.query.userId;
     if(userId !== "undefined"){
         onlineUsers[userId] = socket.id

@@ -29,7 +29,7 @@ const Home = () => {
             </div>
             <div className="p-4 bg-green-50 rounded-lg shadow hover:bg-green-100">
               <h3 className="text-xl font-semibold text-green-600">Work Chat</h3>
-              <p className="mt-1 text-gray-600">Discuss work-related topics with your team.</p>
+              <p className="mt-1 text-gray-500">Discuss work-related topics with your team.</p>
             </div>
             <div className="p-4 bg-purple-50 rounded-lg shadow hover:bg-purple-100">
               <h3 className="text-xl font-semibold text-purple-600">Friends' Chat</h3>
